@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.madurai{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.call-btn:hover,
+#clr-btn:hover{
+    background-color: gray;
+}

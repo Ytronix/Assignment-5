@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--! Title !-->
+    <title>Emergency Service</title>
+    <!--! Favicon !-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <!--! Raw CSS !-->
+    <link rel="stylesheet" href="style.css">
+    <!--! Daisy UI & Tailwind CDN !-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--! Font !-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#F5FFF6] h-full">
+    <nav class="flex px-3 py-5 justify-between items-center lg:px-14">
+        <div class="flex items-center gap-2">
+            <img src="images/logo.png" class="w-[40px] lg:w-[50px]" alt="">
+            <h1 class="text-emerald-800 font-black text-sm leading-[0.9] lg:text-xl">Emergency <br> Service</h1>
+        </div>
+        <div class="flex justify-around items-center gap-2 lg:gap-4">
+            <div class="flex justify-center gap-2 items-center w-[70px] h-[40px] lg:w-[100px] lg:h-[50px] bg-green-100 rounded-4xl">
+                <p id="fav-count" class="roboto font-black text-sm lg:text-base">0</p>
+                <img src="images/heart.png" class="w-[20px]" alt="">
+            </div>
+            <div class="flex justify-center gap-2 items-center w-[70px] h-[40px] lg:w-[100px] lg:h-[50px] bg-green-100 rounded-4xl">
+                <p id="coin" class="roboto font-black text-sm lg:text-base">100</p>
+                <img src="images/coin.png" class="w-[20px]" alt="">
+            </div>
+            <div class="flex justify-center items-center w-[70px] h-[40px] lg:w-[100px] lg:h-[50px] bg-green-600 rounded-4xl">
+                <p class="roboto font-semibold text-white text-sm lg:text-base"><span id="copy-count">0</span> Copy</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
